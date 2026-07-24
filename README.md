@@ -89,19 +89,17 @@ hobbies:    debugging at 3am, blaming the dependency, being right
 
 <br/><br/>
 
-<!-- LLM / AI row — colored logo-only (iconify) -->
+<!-- LLM / AI row — verified colored logos -->
 <img src="https://api.iconify.design/logos:openai-icon.svg" width="48" height="48" alt="OpenAI"/>
-&nbsp;
-<img src="https://api.iconify.design/logos:langchain-icon.svg" width="48" height="48" alt="LangChain"/>
-&nbsp;
-<img src="https://api.iconify.design/simple-icons:anthropic.svg?color=%23c9d1d9" width="48" height="48" alt="Anthropic"/>
-&nbsp;
+&nbsp;&nbsp;
+<img src="https://api.iconify.design/simple-icons:langchain.svg?color=%23c9d1d9" width="48" height="48" alt="LangChain"/>
+&nbsp;&nbsp;
+<img src="https://api.iconify.design/logos:anthropic.svg" width="48" height="48" alt="Anthropic"/>
+&nbsp;&nbsp;
 <img src="https://api.iconify.design/logos:hugging-face-icon.svg" width="48" height="48" alt="Hugging Face"/>
-&nbsp;
+&nbsp;&nbsp;
 <img src="https://api.iconify.design/logos:pinecone-icon.svg" width="48" height="48" alt="Pinecone"/>
-&nbsp;
-<img src="https://api.iconify.design/logos:llamaindex.svg" width="48" height="48" alt="LlamaIndex"/>
-&nbsp;
+&nbsp;&nbsp;
 <img src="https://api.iconify.design/logos:supabase-icon.svg" width="48" height="48" alt="Supabase / pgvector"/>
 
 <br/><br/>
@@ -120,28 +118,29 @@ hobbies:    debugging at 3am, blaming the dependency, being right
 
 <div align="center">
 
-<a href="https://github.com/areesh-ali">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=areesh-ali&show_icons=true&count_private=true&hide_border=true&title_color=6C63FF&icon_color=6C63FF&text_color=c9d1d9&bg_color=0d1117&include_all_commits=true" alt="github stats"/>
-</a>
-<a href="https://github.com/areesh-ali">
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=areesh-ali&layout=compact&hide_border=true&title_color=6C63FF&text_color=c9d1d9&bg_color=0d1117&langs_count=8" alt="top languages"/>
-</a>
+<!-- Profile card + stats card (github-profile-summary-cards — reliable, no rate limits) -->
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=areesh-ali&theme=tokyo_night" alt="profile details"/>
 
 <br/>
 
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=areesh-ali&theme=tokyo_night&exclude=jupyter%20notebook" alt="repos per language" height="200"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=areesh-ali&theme=tokyo_night&exclude=jupyter%20notebook" alt="most commit language" height="200"/>
+
+<br/>
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=areesh-ali&theme=tokyo_night" alt="stats" height="200"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=areesh-ali&theme=tokyo_night&utcOffset=5" alt="productive time" height="200"/>
+
+<br/>
+
+<!-- Streak stats — this one works reliably -->
 <a href="https://github.com/areesh-ali">
   <img src="https://streak-stats.demolab.com?user=areesh-ali&theme=tokyonight&hide_border=true&background=0d1117&stroke=6C63FF&ring=6C63FF&fire=FF6B6B&currStreakLabel=6C63FF" alt="streak stats" height="180"/>
 </a>
 
-<br/><br/>
-
-<a href="https://github.com/ryo-ma/github-profile-trophy">
-  <img src="https://github-profile-trophy.vercel.app/?username=areesh-ali&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=10&margin-h=10" alt="trophies"/>
-</a>
-
 <br/>
 
-<sub><i>the trophies say I'm impressive. my linter says otherwise.</i></sub>
+<sub><i>most productive time: 3am. yes, that's the problem.</i></sub>
 
 </div>
 
@@ -173,76 +172,150 @@ hobbies:    debugging at 3am, blaming the dependency, being right
      PROJECTS — with dev-humor captions
      ═══════════════════════════════════════════════════════════════════════════ -->
 
-## <img src="https://media.giphy.com/media/W5eKUZWfhbXfNK1lu4/giphy.gif" width="28"> &nbsp; things that made it to prod (mostly)
+## <img src="https://media.giphy.com/media/W5eKUZWfhbXfNK1lu4/giphy.gif" width="28"> &nbsp; the lab (real repos, real chaos)
+
+<sub>most of my day-job code lives in private client repos — but here's what I build in public. click any of them.</sub>
+
+<br/>
+
+### <img src="https://api.iconify.design/logos:openai-icon.svg" width="20"/> &nbsp; AI, RAG & agents
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 🧠 &nbsp; TrueClaim AI
-**Insurance-claims RAG platform**
-> Turned 40-page policy PDFs into grounded, cited answers. Adjusters no longer weep.
+**[AMKP](https://github.com/areesh-ali/AMKP)** &nbsp; <img src="https://api.iconify.design/logos:html-5.svg" width="16"/>
+> Agentic Multimodal Knowledge Plane — API/SDK/MCP-first Evidence + Policy + Tenancy plane for multi-product RAG. Hard isolation, Parse Ladder / TableEvidence, guarded agentic retrieve, traces & evals.
 >
-> *"It's like ChatGPT, but it can't legally make things up." — me, to legal*
-
-<img src="https://skillicons.dev/icons?i=nodejs,python,postgres" height="32"/>
-<img src="https://api.iconify.design/logos:openai-icon.svg" height="32"/>
-<img src="https://api.iconify.design/logos:langchain-icon.svg" height="32"/>
+> *the flagship. what "RAG that doesn't leak between tenants" looks like.*
 
 </td>
 <td width="50%" valign="top">
 
-### 🎙️ &nbsp; Futurenostics *(current)*
-**AI-assisted journalism**
-> Raw field audio → drafts, with diarization and quote attribution.
+**[Email-Reachout-Cli](https://github.com/areesh-ali/Email-Reachout-Cli)** &nbsp; <img src="https://api.iconify.design/logos:python.svg" width="16"/>
+> JobReach — local-first interactive CLI that generates, reviews, and sends cold job outreach emails from your CV and a CSV of HR contacts. LLM in the loop, you in the driver's seat.
 >
-> *the pipeline works. the journalists are suspicious. that's how you know it's shipping.*
-
-<img src="https://skillicons.dev/icons?i=nodejs,react,redis" height="32"/>
-<img src="https://api.iconify.design/logos:openai-icon.svg" height="32"/>
-<img src="https://api.iconify.design/simple-icons:openai.svg?color=%2374AA9C" height="32" alt="Whisper"/>
+> *I built this instead of applying to jobs. the irony is not lost on me.*
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### 🏔️ &nbsp; DialedN
-**Adventure-experience marketplace**
-> Multi-vendor bookings, Stripe Connect, geo-search. Zero → checkout in one quarter.
->
-> *the calendar-sync bug taught me humility. and cron expressions.*
-
-<img src="https://skillicons.dev/icons?i=nextjs,nodejs,postgres" height="32"/>
-<img src="https://api.iconify.design/logos:stripe.svg" height="32"/>
+**[Automated_PMDCDoctorVerification](https://github.com/areesh-ali/Automated_PMDCDoctorVerification)** &nbsp; <img src="https://api.iconify.design/logos:python.svg" width="16"/>
+> Scrapes + verifies doctor credentials against Pakistan's PMDC registry. Python + FastAPI service backing a doctor-onboarding flow.
 
 </td>
 <td width="50%" valign="top">
 
-### 🎤 &nbsp; TMN Voice Pipeline
-**Async voice screening at scale**
-> Realtime STT → structured eval → recruiter dashboard.
->
-> *fixed a concurrency bug that only fired at 3:47am PKT. still not over it.*
-
-<img src="https://skillicons.dev/icons?i=nodejs,redis" height="32"/>
-<img src="https://api.iconify.design/logos:webrtc.svg" height="32"/>
-<img src="https://api.iconify.design/logos:openai-icon.svg" height="32"/>
-
-</td>
-</tr>
-<tr>
-<td colspan="2" valign="top">
-
-### 🎟️ &nbsp; Aloompa / DragonFly
-**Event mobile-app platform** — powered festivals with schedules, maps, push, vendor dashboards.
-*if you've been to a US festival in the last few years, there's a non-zero chance my code ruined your day.*
-
-<img src="https://skillicons.dev/icons?i=react,nodejs,graphql" height="32"/>
+**[pneumonia-detection](https://github.com/areesh-ali/pneumonia-detection)** &nbsp; <img src="https://api.iconify.design/logos:jupyter.svg" width="16"/>
+> CNN classifier on chest-X-ray images. Bytewise Fellowship DL/ML 2024 final project. *(spoiler: it worked. mostly.)*
 
 </td>
 </tr>
 </table>
+
+<br/>
+
+### <img src="https://api.iconify.design/logos:nodejs-icon.svg" width="20"/> &nbsp; full-stack apps
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**[cnnct](https://github.com/areesh-ali/cnnct)** &nbsp; <img src="https://api.iconify.design/logos:typescript-icon.svg" width="16"/>
+> Chat app on raw Node.js + React + MinIO + Postgres, all in Docker. No frameworks pretending to be frameworks — real WebSockets, real message persistence.
+>
+> *rebuilt from scratch to prove I understand the stack under Socket.IO's hood.*
+
+</td>
+<td width="50%" valign="top">
+
+**[inkboard](https://github.com/areesh-ali/inkboard)** &nbsp; <img src="https://api.iconify.design/logos:python.svg" width="16"/>
+> Medium-style publishing platform — FastAPI + Postgres. Auth, claps, comments, follows, personalized feeds, moderation, search, analytics.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**[TrackFlow-BE](https://github.com/areesh-ali/TrackFlow-BE)** + **[TrackFlow-UI](https://github.com/areesh-ali/TrackFlow-UI)** &nbsp; <img src="https://api.iconify.design/logos:dotnet.svg" width="16"/> <img src="https://api.iconify.design/logos:angular-icon.svg" width="16"/>
+> Project-tracking app — .NET backend (Docker + MinIO) paired with Angular + Tailwind frontend. Because sometimes the answer isn't Node.
+
+</td>
+<td width="50%" valign="top">
+
+**[medlink](https://github.com/areesh-ali/medlink)** &nbsp; <img src="https://api.iconify.design/logos:typescript-icon.svg" width="16"/>
+> Doctor-patient telemedicine coordination layer. TypeScript full-stack, built for a healthcare fyp cohort.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**[filmfolio](https://github.com/areesh-ali/filmfolio)** &nbsp; <img src="https://api.iconify.design/logos:flutter.svg" width="16"/>
+> Flutter movie-catalog app. State management + TMDB API. My "let's see if I still know Flutter" checkpoint.
+
+</td>
+<td width="50%" valign="top">
+
+**[stackr](https://github.com/areesh-ali/stackr)** + **[stackr-fe](https://github.com/areesh-ali/stackr-fe)** &nbsp; <img src="https://api.iconify.design/logos:typescript-icon.svg" width="16"/>
+> Task/stack management with a split BE/FE monorepo layout.
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+### <img src="https://api.iconify.design/logos:visual-studio-code.svg" width="20"/> &nbsp; learn-by-building repos
+
+<table>
+<tr>
+<td width="33%" valign="top" align="center">
+
+**[graphql-learn](https://github.com/areesh-ali/graphql-learn)**
+<br/><sub>schemas + resolvers from zero</sub>
+
+</td>
+<td width="33%" valign="top" align="center">
+
+**[oauth2-0-passportjs](https://github.com/areesh-ali/oauth2-0-passportjs)**
+<br/><sub>OAuth flows I'll never write from scratch again</sub>
+
+</td>
+<td width="33%" valign="top" align="center">
+
+**[learn-socket-io](https://github.com/areesh-ali/learn-socket-io)**
+<br/><sub>rooms, namespaces, and my patience</sub>
+
+</td>
+</tr>
+<tr>
+<td valign="top" align="center">
+
+**[dotnetAuthentications](https://github.com/areesh-ali/dotnetAuthentications)**
+<br/><sub>.NET 8 bearer + cookie auth playbook</sub>
+
+</td>
+<td valign="top" align="center">
+
+**[fastapi](https://github.com/areesh-ali/fastapi)**
+<br/><sub>FastAPI + Uvicorn, going fast</sub>
+
+</td>
+<td valign="top" align="center">
+
+**[free-learn](https://github.com/areesh-ali/free-learn)**
+<br/><sub>indexer for free learning resources</sub>
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+> <sub>&nbsp;🔒 &nbsp; <b>Day-job stuff</b> — TinyMightyNews (AI journalism · Whisper + GPT-4.1 + LangChain + Terraform AWS), TrueClaim AI (insurance RAG, on Play Store + App Store), DialedN (35+ carrier shipping optimizer), Aloompa (Coachella-tier festival apps), Teamly (RBAC + multi-tenant collab) — those live in private client orgs. Happy to walk through architecture / decisions on a call.</sub>
 
 <br/>
 
@@ -338,7 +411,7 @@ hobbies:    debugging at 3am, blaming the dependency, being right
   <img src="https://api.iconify.design/mdi:github.svg?color=%23c9d1d9" width="52" height="52" alt="github"/>
 </a>
 &nbsp;&nbsp;
-<a href="https://x.com/areesh_ali">
+<a href="https://x.com/a_for_areesh">
   <img src="https://api.iconify.design/simple-icons:x.svg?color=%23c9d1d9" width="48" height="48" alt="twitter"/>
 </a>
 
