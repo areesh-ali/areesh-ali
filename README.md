@@ -1,14 +1,15 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=1B2A41&height=230&section=header&text=Areesh%20Ali&fontSize=64&fontColor=EDE6D6&fontAlignY=40&desc=Full-Stack%20%C3%97%20AI%20Engineer&descAlignY=62&descSize=18&descColor=C8442F" width="100%" alt="header"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=1B2A41&height=230&section=header&text=Areesh%20Ali&fontSize=64&fontColor=EDE6D6&fontAlignY=40&desc=Full-Stack%20%C3%97%20AI%20Engineer%20%C2%B7%20professional%20bug%20whisperer&descAlignY=62&descSize=16&descColor=C8442F" width="100%" alt="header"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3000&pause=900&color=C8442F&center=true&vCenter=true&width=700&height=50&lines=Building+AI+that+stays+grounded;Backends+built+to+hold+under+load;Clean+interfaces%2C+shipped+on+time;Less+noise.+More+signal." alt="typing"/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3000&pause=900&color=C8442F&center=true&vCenter=true&width=760&height=50&lines=I+turn+coffee+into+RAG+pipelines;works+on+my+machine.+ship+it.;%22just+a+small+refactor%22+%E2%80%94+me%2C+lying;prod+is+down%3F+bet." alt="typing"/>
 
 <br/>
 
-<img src="https://img.shields.io/github/followers/areesh-ali?label=followers&style=flat-square&color=C8442F&labelColor=1B2A41&logo=github&logoColor=white" alt="followers"/>
-<img src="https://komarev.com/ghpvc/?username=areesh-ali&label=visitors&color=3E5C76&style=flat-square&labelColor=1B2A41" alt="views"/>
-<img src="https://img.shields.io/badge/based%20in-Islamabad-3E5C76?style=flat-square&labelColor=1B2A41" alt="location"/>
+<img src="https://img.shields.io/github/followers/areesh-ali?label=brave%20followers&style=flat-square&color=C8442F&labelColor=1B2A41&logo=github&logoColor=white" alt="followers"/>
+<img src="https://komarev.com/ghpvc/?username=areesh-ali&label=accidental%20visitors&color=3E5C76&style=flat-square&labelColor=1B2A41" alt="views"/>
+<img src="https://img.shields.io/badge/bugs%20shipped-%E2%88%9E-C8442F?style=flat-square&labelColor=1B2A41" alt="bugs"/>
+<img src="https://img.shields.io/badge/coffee%20level-critical-3E5C76?style=flat-square&labelColor=1B2A41" alt="coffee"/>
 
 <br/><br/>
 
@@ -18,13 +19,14 @@
 
 <br/>
 
-## Who I am
+## Who I am (allegedly)
 
-I'm a full-stack engineer with four years of experience, now focused on AI products. I live in Islamabad and work at **Futurenostics**, where I build LLM systems that take speech through Whisper and GPT and then work out how to keep the output from hallucinating.
+Four years as a full-stack engineer, which feels like seven in dog years and nine in 3am years. I'm in Islamabad, and at **Futurenostics** I wire Whisper into GPT and then spend my days convincing it to stop making things up. A confident liar is great at a dinner party and terrible in production.
 
-- **Where I'm strongest:** retrieval-augmented generation, resilient backends, and frontends that get out the door
-- **Daily drivers:** MERN, Python, Postgres, Redis, and LLM APIs
-- **Ongoing battle:** naming things, and I'm still losing
+- **Good at:** RAG that actually answers the question, backends that don't fold under load, UIs that ship
+- **Bad at:** naming variables. `temp2_final_v3_REAL.js` is a lifestyle
+- **Fuel:** chai, spite, and one biryani a week
+- **Stack:** MERN, Python, Postgres, Redis, and a regrettable amount of LLM glue
 
 <br/>
 
@@ -34,7 +36,7 @@ I'm a full-stack engineer with four years of experience, now focused on AI produ
 
 <br/>
 
-## What I work with
+## Weapons of choice
 
 <div align="center">
 
@@ -48,17 +50,17 @@ I'm a full-stack engineer with four years of experience, now focused on AI produ
 
 <br/><br/>
 
-<img src="https://api.iconify.design/logos:openai-icon.svg" width="40" height="40" alt="OpenAI"/>
-&nbsp;&nbsp;
-<img src="https://api.iconify.design/simple-icons:langchain.svg?color=%23c9d1d9" width="40" height="40" alt="LangChain"/>
-&nbsp;&nbsp;
-<img src="https://api.iconify.design/logos:anthropic.svg" width="40" height="40" alt="Anthropic"/>
-&nbsp;&nbsp;
-<img src="https://api.iconify.design/logos:hugging-face-icon.svg" width="40" height="40" alt="Hugging Face"/>
-&nbsp;&nbsp;
-<img src="https://api.iconify.design/logos:pinecone-icon.svg" width="40" height="40" alt="Pinecone"/>
-&nbsp;&nbsp;
-<img src="https://api.iconify.design/logos:supabase-icon.svg" width="40" height="40" alt="Supabase / pgvector"/>
+<img src="https://img.shields.io/badge/OpenAI-1B2A41?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI"/>
+<img src="https://img.shields.io/badge/LangChain-1B2A41?style=for-the-badge&logo=langchain&logoColor=white" alt="LangChain"/>
+<img src="https://img.shields.io/badge/Anthropic-1B2A41?style=for-the-badge&logo=anthropic&logoColor=white" alt="Anthropic"/>
+<br/>
+<img src="https://img.shields.io/badge/Hugging%20Face-1B2A41?style=for-the-badge&logo=huggingface&logoColor=white" alt="Hugging Face"/>
+<img src="https://img.shields.io/badge/Pinecone-1B2A41?style=for-the-badge&logo=pinecone&logoColor=white" alt="Pinecone"/>
+<img src="https://img.shields.io/badge/Supabase%20%2F%20pgvector-1B2A41?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase / pgvector"/>
+
+<br/><br/>
+
+<sub><i>roughly 80% daily drivers, 20% things that worked once and earned a permanent spot</i></sub>
 
 </div>
 
@@ -70,7 +72,30 @@ I'm a full-stack engineer with four years of experience, now focused on AI produ
 
 <br/>
 
-## GitHub activity
+## A typical day
+
+```txt
+09:00  standup. "no blockers."
+09:30  four blockers.
+10:00  quick refactor. famous last words.
+13:00  it was a semicolon.
+14:00  deploy to staging
+14:03  staging is now a campfire
+17:00  it works. commit. go home.
+17:01  new bug.
+23:00  two-line fix. flawless.
+03:47  pager. it's the two lines.
+```
+
+<br/>
+
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=rect&color=C8442F&height=2&section=header" width="40%" alt="divider"/>
+</div>
+
+<br/>
+
+## The receipts
 
 <div align="center">
 
@@ -91,6 +116,10 @@ I'm a full-stack engineer with four years of experience, now focused on AI produ
   <img alt="contribution snake" src="https://raw.githubusercontent.com/areesh-ali/areesh-ali/output/github-contribution-grid-snake.svg"/>
 </picture>
 
+<br/><br/>
+
+<sub><i>most productive hour: 3am. yes, that's the problem.</i></sub>
+
 </div>
 
 <br/>
@@ -101,29 +130,23 @@ I'm a full-stack engineer with four years of experience, now focused on AI produ
 
 <br/>
 
-## Get in touch
+## Slide into my inbox (professionally)
 
 <div align="center">
 
-<sub>Open to hiring conversations, collaborations, and good technical debates.</sub>
+<sub>hiring, collaborating, or here to argue about tabs vs spaces? all welcome.</sub>
 
 <br/><br/>
 
-<a href="mailto:areesh.ali.abd@gmail.com">
-  <img src="https://api.iconify.design/logos:google-gmail.svg" width="40" height="40" alt="email"/>
-</a>
-&nbsp;&nbsp;&nbsp;
-<a href="https://linkedin.com/in/areesh-ali">
-  <img src="https://api.iconify.design/logos:linkedin-icon.svg" width="40" height="40" alt="linkedin"/>
-</a>
-&nbsp;&nbsp;&nbsp;
-<a href="https://github.com/areesh-ali">
-  <img src="https://api.iconify.design/mdi:github.svg?color=%23c9d1d9" width="40" height="40" alt="github"/>
-</a>
-&nbsp;&nbsp;&nbsp;
-<a href="https://x.com/a_for_areesh">
-  <img src="https://api.iconify.design/simple-icons:x.svg?color=%23c9d1d9" width="36" height="36" alt="x"/>
-</a>
+<a href="mailto:areesh.ali.abd@gmail.com"><img src="https://img.shields.io/badge/Email-areesh.ali.abd%40gmail.com-C8442F?style=for-the-badge&logo=gmail&logoColor=white&labelColor=1B2A41" alt="email"/></a>
+<br/>
+<a href="https://linkedin.com/in/areesh-ali"><img src="https://img.shields.io/badge/LinkedIn-areesh--ali-3E5C76?style=for-the-badge&labelColor=1B2A41" alt="linkedin"/></a>
+<a href="https://github.com/areesh-ali"><img src="https://img.shields.io/badge/GitHub-areesh--ali-3E5C76?style=for-the-badge&logo=github&logoColor=white&labelColor=1B2A41" alt="github"/></a>
+<a href="https://x.com/a_for_areesh"><img src="https://img.shields.io/badge/X-a__for__areesh-3E5C76?style=for-the-badge&logo=x&logoColor=white&labelColor=1B2A41" alt="x"/></a>
+
+<br/><br/>
+
+<sub>you scrolled all the way down. we're basically friends now.</sub>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=1B2A41&height=120&section=footer" width="100%" alt="footer"/>
 
